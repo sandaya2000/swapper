@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.cucumber.skeleton.RunCucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-9VUB1QQ" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: swapArraysWithNoTemporaryVariable
+
+  Scenario: swap two arrays with no temporary variable                                       ?[90m# io/cucumber/skeleton/swapArraysWithNoTemporaryVariable.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI have two arrays?[0m                                                                  ?[90m# StepArraysSwapper.i_have_two_arrays()?[0m
+    ?[32mWhen ?[0m?[32mI swap the two arrays without using a temporary variable?[0m                            ?[90m# StepArraysSwapper.i_swap_the_two_arrays_without_using_a_temporary_variable()?[0m
+    ?[32mThen ?[0m?[32mThe first array contains the value in the second array and the second has the first?[0m ?[90m# StepArraysSwapper.the_first_array_contains_the_value_in_the_second_array_and_the_second_has_the_first()?[0m
+
+Feature: swapIntegersWithNoTemporaryVariable
+
+  Scenario: swap two integers with no temporary variable                         ?[90m# io/cucumber/skeleton/swapIntegersWithNoTemporaryVariable.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI have two integers?[0m                                                    ?[90m# StepIntegerSwapper.i_have_two_integers()?[0m
+    ?[32mWhen ?[0m?[32mI swap them without using a temporary variable?[0m                          ?[90m# StepIntegerSwapper.i_swap_them_without_using_a_temporary_variable()?[0m
+    ?[32mThen ?[0m?[32mThe first contains the value in the second and the second has the first?[0m ?[90m# StepIntegerSwapper.the_first_contains_the_value_in_the_second_and_the_second_has_the_first()?[0m
+
+Feature: swapObjectsWithNoTemporaryVariable
+
+  Scenario: swap two objects with no temporary variable                                        ?[90m# io/cucumber/skeleton/swapObjectsWithNoTemporaryVariable.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI have two objects?[0m                                                                   ?[90m# StepDoubleSwapper.i_have_two_objects()?[0m
+    ?[32mWhen ?[0m?[32mI swap the two objects without using a temporary variable?[0m                             ?[90m# StepDoubleSwapper.i_swap_the_two_objects_without_using_a_temporary_variable()?[0m
+    ?[32mThen ?[0m?[32mThe first object contains the value in the second object and the second has the first?[0m ?[90m# StepDoubleSwapper.the_first_object_contains_the_value_in_the_second_object_and_the_second_has_the_first()?[0m
+
+3 Scenarios (?[32m3 passed?[0m)
+9 Steps (?[32m9 passed?[0m)
+0m0.482s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
