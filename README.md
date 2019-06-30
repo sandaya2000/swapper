@@ -19,16 +19,19 @@ The generalized code was used to swap an array of integers with an array of stri
  T E S T S
 -------------------------------------------------------
 Running io.cucumber.skeleton.RunCucumberTest
+
 *** Swap two arrays ***
 Initial X value: [1, 2, 3]
 Initial Y value: [first, second, third]
 End X value: [first, second, third]
 End Y value: [1, 2, 3]
+
 *** Swap two integers ***
 Initial X value: 100
 Initial Y value: 200
 End X value: 200
 End Y value: 100
+
 *** Swap two doubles ***
 Initial X value: 100.234
 Initial Y value: 200.456
