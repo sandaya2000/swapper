@@ -1,14 +1,14 @@
 # Cucumber-Swapper (without a temporary variable)
   
-  It great that Intellij Idea suggests the methods to be implemented when you write the feature files.
+  It's great that Intellij Idea suggests the methods to be implemented when you write the feature files.
 
-## swapIntegersWithNoTemporaryVariable.feature
+### swapIntegersWithNoTemporaryVariable.feature
 The code started out with a swapper for integers 
 
-## swapObjectsWithNoTemporaryVariable.feature
+### swapObjectsWithNoTemporaryVariable.feature
 To swap doubles, a more generalized swapper for objects was written
 
-## swapArraysWithNoTemporaryVariable.feature
+### swapArraysWithNoTemporaryVariable.feature
 The generalized code was used to swap an array of integers with an arrays of strings
 
 ### Test Run Console Log
