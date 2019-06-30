@@ -1,6 +1,4 @@
-io\cucumber\skeleton\IntegerSwapper.class
 io\cucumber\skeleton\RunCucumberTest.class
 io\cucumber\skeleton\StepIntegerSwapper.class
 io\cucumber\skeleton\StepArraysSwapper.class
-io\cucumber\skeleton\ObjectSwapper.class
 io\cucumber\skeleton\StepDoubleSwapper.class

@@ -16,6 +16,8 @@ public class StepArraysSwapper {
 
     @Given("I have two arrays")
     public void i_have_two_arrays() {
+        System.out.println("*** Swap two arrays ***");
+
         x.add(1);
         x.add(2);
         x.add(3);
@@ -38,8 +40,8 @@ public class StepArraysSwapper {
     public void the_first_array_contains_the_value_in_the_second_array_and_the_second_has_the_first() {
         System.out.println("End X value: " + objectSwapper.getX());
         System.out.println("End Y value: " + objectSwapper.getY());
-        assert objectSwapper.getX() == y: "Failed swap";
-        assert objectSwapper.getY() == x: "Failed swap";
+        assert objectSwapper.getX() == y: "Failed array swap";
+        assert objectSwapper.getY() == x: "Failed array swap";
     }
 
 }
