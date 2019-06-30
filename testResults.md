@@ -7,16 +7,19 @@
  T E S T S
 -------------------------------------------------------
 Running io.cucumber.skeleton.RunCucumberTest
+
 *** Swap two arrays ***
 Initial X value: [1, 2, 3]
 Initial Y value: [first, second, third]
 End X value: [first, second, third]
 End Y value: [1, 2, 3]
+
 *** Swap two integers ***
 Initial X value: 100
 Initial Y value: 200
 End X value: 200
 End Y value: 100
+
 *** Swap two doubles ***
 Initial X value: 100.234
 Initial Y value: 200.456
@@ -45,9 +48,9 @@ Feature: swapObjectsWithNoTemporaryVariable
 
 3 Scenarios (3 passed)
 9 Steps (9 passed)
-0m0.458s
+0m0.365s
 
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.136 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.026 sec
 
 Results :
 
@@ -56,10 +59,11 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.474 s
-[INFO] Finished at: 2019-06-30T09:03:32-04:00
-[INFO] Final Memory: 15M/162M
+[INFO] Total time: 9.394 s
+[INFO] Finished at: 2019-06-30T13:43:06-04:00
+[INFO] Final Memory: 15M/163M
 [INFO] ------------------------------------------------------------------------
 
 Process finished with exit code 0
+
 ```
