@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="swapIntegersWithNoTemporaryVariable" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-30T16:21:24" hostname="DESKTOP-9VUB1QQ" time="0.007">
+  <properties/>
+  <testcase name="swap two integers with no temporary variable" classname="swapIntegersWithNoTemporaryVariable" time="0.007"/>
+  <system-out><![CDATA[*** Swap two integers ***
+Initial X value: 100
+Initial Y value: 200
+End X value: 200
+End Y value: 100
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

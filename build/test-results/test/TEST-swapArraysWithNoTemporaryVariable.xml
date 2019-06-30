@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="swapArraysWithNoTemporaryVariable" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-30T16:21:24" hostname="DESKTOP-9VUB1QQ" time="0.011">
+  <properties/>
+  <testcase name="swap two arrays with no temporary variable" classname="swapArraysWithNoTemporaryVariable" time="0.011"/>
+  <system-out><![CDATA[*** Swap two arrays ***
+Initial X value: [1, 2, 3]
+Initial Y value: [first, second, third]
+End X value: [first, second, third]
+End Y value: [1, 2, 3]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
