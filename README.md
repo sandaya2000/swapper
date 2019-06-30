@@ -102,6 +102,7 @@ For example a JUnit formatter:
     -Dcucumber.options="--plugin junit:target/cucumber-junit-report.xml"
 
 ### Test Run Console Log
+```
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
@@ -161,6 +162,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 
 Process finished with exit code 0
+```
 
 # NOTE:
 ## Abstract class vs Interface
