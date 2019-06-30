@@ -9,7 +9,7 @@ The code started out with a swapper for integers
 To swap doubles, a more generalized swapper for objects was written
 
 ### swapArraysWithNoTemporaryVariable.feature
-The generalized code was used to swap an array of integers with an arrays of strings
+The generalized code was used to swap an array of integers with an array of strings
 
 ### Test Run Console Log
 ```
