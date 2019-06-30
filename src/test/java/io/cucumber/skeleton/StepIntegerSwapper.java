@@ -13,7 +13,7 @@ public class StepIntegerSwapper {
 
     @Given("I have two integers")
     public void i_have_two_integers() {
-        System.out.println("*** Swap two integers ***");
+        System.out.println("\n*** Swap two integers ***");
         this.x = 100;
         this.y = 200;
         System.out.println("Initial X value: " + this.x);

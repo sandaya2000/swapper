@@ -13,7 +13,7 @@ public class StepDoubleSwapper {
 
     @Given("I have two objects")
     public void i_have_two_objects() {
-        System.out.println("*** Swap two doubles ***");
+        System.out.println("\n*** Swap two doubles ***");
         this.x = 100.234;
         this.y = 200.456;
         System.out.println("Initial X value: " + this.x);

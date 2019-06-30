@@ -16,7 +16,7 @@ public class StepArraysSwapper {
 
     @Given("I have two arrays")
     public void i_have_two_arrays() {
-        System.out.println("*** Swap two arrays ***");
+        System.out.println("\n*** Swap two arrays ***");
 
         x.add(1);
         x.add(2);
