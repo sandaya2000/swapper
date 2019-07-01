@@ -2,16 +2,16 @@
   
   It's great that Intellij Idea suggests the methods to be implemented when you write the feature files.
 
-### swapIntegersWithNoTemporaryVariable.feature
+#### swapIntegersWithNoTemporaryVariable.feature
 The code started out with a swapper for integers 
 
-### swapObjectsWithNoTemporaryVariable.feature
+#### swapObjectsWithNoTemporaryVariable.feature
 To swap doubles, a more generalized swapper for objects was written
 
-### swapArraysWithNoTemporaryVariable.feature
+#### swapArraysWithNoTemporaryVariable.feature
 The generalized code was used to swap an array of integers with an array of strings
 
-### Test Run Console Log
+## Test Run Console Log
 
 ```
 
@@ -77,9 +77,8 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 
 Process finished with exit code 0
+
 ```
-
-
 ## Get the code
 
 Git:
@@ -170,6 +169,32 @@ This works as long as you have the `rerun` formatter enabled.
 For example a JUnit formatter:
 
     -Dcucumber.options="--plugin junit:target/cucumber-junit-report.xml"
+
+# SIDE NOTE:
+## Abstract class vs Interface (from google search)
+
+#### Type of methods:
+Interface can have only abstract methods. Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+
+#### Final Variables:
+Variables declared in a Java interface are by default final. An abstract class may contain non-final variables.
+
+###3 Type of variables:
+Abstract class can have final, non-final, static and non-static variables. Interface has only static and final variables.
+
+#### Implementation:
+Abstract class can provide the implementation of interface. Interface can’t provide the implementation of abstract class.
+
+#### Inheritance vs Abstraction:
+A Java interface can be implemented using keyword “implements” and abstract class can be extended using keyword “extends”.
+
+#### Multiple implementation:
+An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+
+#### Accessibility of Data Members:
+Members of a Java interface are public by default. A Java abstract class can have class members like private, protected, etc.
+
+
 
 
 
